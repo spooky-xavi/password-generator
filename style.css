@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 20vh);
+}
